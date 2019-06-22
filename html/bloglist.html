@@ -77,7 +77,7 @@
 
             <!-- Insert code for Trash icon here -->
             <div class="trashIcon">
-                <img src="../css/trash.png" id="trashIcon1" onclick="showtrashconfirm()">
+                <img src="../css/trash.png" id="trashIcon1" onclick="showTrashConfirm()">
             </div>
 
             <p class="post-title">Hello there ! This is Post 1. </p>
@@ -89,6 +89,9 @@
                 folk music, 1950s rock and roll, psychedelic and jazz.</p>
 
             <!-- Insert code for ... icon here -->
+            <div class="trashIcon">
+                <img src="../css/more.png" style="width: 25px;height: 30px" >
+            </div>
 
         </div>
     </div>
@@ -100,7 +103,7 @@
 
             <!-- Insert code for Trash icon here -->
             <div class="trashIcon">
-                <img src="../css/trash.png" id="trashIcon2">
+                <img src="../css/trash.png" id="trashIcon2" onclick="showTrashConfirm()">
             </div>
 
             <p class="post-title">Hello there ! This is Post 2. </p>
@@ -112,6 +115,9 @@
                 folk music, 1950s rock and roll, psychedelic and jazz.</p>
 
             <!-- Insert code for ... icon here -->
+            <div class="trashIcon">
+                <img src="../css/more.png" style="width: 25px;height: 30px" >
+            </div>
 
         </div>
     </div>
@@ -123,7 +129,7 @@
 
             <!-- Insert code for Trash icon here -->
             <div class="trashIcon">
-                <img src="../css/trash.png" id="trashIcon3">
+                <img src="../css/trash.png" id="trashIcon3" onclick="showTrashConfirm()">
             </div>
 
             <p class="post-title">Hello there ! This is Post 3. </p>
@@ -135,6 +141,9 @@
                 folk music, 1950s rock and roll, psychedelic and jazz.</p>
 
             <!-- Insert code for ... icon here -->
+            <div class="trashIcon">
+                <img src="../css/more.png" style="width: 25px;height: 30px" >
+            </div>
 
         </div>
     </div>
@@ -146,7 +155,7 @@
 
             <!-- Insert code for Trash icon here -->
             <div class="trashIcon">
-                <img src="../css/trash.png" id="trashIcon4" >
+                <img src="../css/trash.png" id="trashIcon4" onclick="showTrashConfirm()">
             </div>
 
             <p class="post-title">Hello there ! This is Post 4. </p>
@@ -158,6 +167,9 @@
                 folk music, 1950s rock and roll, psychedelic and jazz.</p>
 
             <!-- Insert code for ... icon here -->
+            <div class="trashIcon">
+                <img src="../css/more.png" style="width: 25px;height: 30px" >
+            </div>
 
         </div>
     </div>
@@ -169,7 +181,7 @@
 
             <!-- Insert code for Trash icon here -->
             <div class="trashIcon">
-                <img src="../css/trash.png" id="trashIcon5">
+                <img src="../css/trash.png" id="trashIcon5" onclick="showTrashConfirm()">
             </div>
 
             <p class="post-title">Hello there ! This is Post 5. </p>
@@ -181,6 +193,9 @@
                 folk music, 1950s rock and roll, psychedelic and jazz.</p>
 
             <!-- Insert code for ... icon here -->
+            <div class="trashIcon">
+                <img src="../css/more.png" style="width: 25px;height: 30px" >
+            </div>
 
         </div>
     </div>
@@ -189,6 +204,18 @@
     <div>
 
         <!-- Insert code for delete modal here -->
+        <div id="deleteModal" class="deleteModal">
+
+            <div class="deleteModal-content">
+                <span class="close1">&times;</span>
+                <h4>Are you delete this post?</h4>
+                <div  class="deleteModalButton">
+                    <button style="background: red;" id="yesDelete" >Yes</button>
+                    <button id="noDelete" >No</button>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 
