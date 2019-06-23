@@ -12,10 +12,6 @@ nobtn.onclick = function()
     modal2.style.display = "none";
 };
 
-yesbtn.onclick = function()
-{
-    modal2.style.display = "none";
-};
 span.onclick = function () {
     modal2.style.display = "none";
 };

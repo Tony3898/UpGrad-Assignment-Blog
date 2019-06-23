@@ -28,6 +28,7 @@ btn2.onclick = function () {
         modal1.style.display = "none";
     else
         modal1.style.display = "block";
+
     if(modal.style.display === "block")
         modal.style.display = "none";
     else
